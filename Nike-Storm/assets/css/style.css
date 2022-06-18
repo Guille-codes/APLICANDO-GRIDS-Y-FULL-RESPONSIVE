@@ -1,0 +1,2152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/Fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*---------Pagina INDEX---------*//*---------Pagina INDEX---------*//*---------Pagina INDEX---------*/
+/*---------Pagina INDEX---------*//*---------Pagina INDEX---------*//*---------Pagina INDEX---------*/
+/*---------Pagina INDEX---------*//*---------Pagina INDEX---------*//*---------Pagina INDEX---------*/
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+    align-items: center;
+}
+.header-nike{
+    display: flex;    
+    justify-content: space-between;
+    padding-left: 17px;
+}
+.header-shop{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-shop a{
+padding-right: 10px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+}
+header nav ul  li{
+    padding-left: 10px;
+    padding-right: 100px;
+}
+header nav ul a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.main-index{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.main-conteiner{
+    min-height: calc(100vh - 218px - );
+}
+.main-snikers img{
+    width: 1000px;
+}
+.main-message{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+.main-buy{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.main-buy a{
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: #d9d9d957;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-buy img{
+    width: 25px;
+    height: 25px;
+    margin-left: 9px;
+}
+
+/*----------FOOTER----------*//*----------FOOTER----------*//*----------FOOTER----------*/
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 17px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 123px;
+    color: #fff;
+}
+.footer-text a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+    text-decoration: none;
+}
+.footer-line{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer-icon a{
+    margin-right: 10px;
+}
+
+/*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+/*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+/*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+
+
+.main-coleccion{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 60px;
+}
+.main p{
+    text-align: start;
+    margin-left: 100px;
+    font-weight: 300;
+}
+.coleccion{
+    display: flex;
+    align-items: center;
+}
+.coleccion h2{
+    text-align: start;
+    font-weight: 900;
+    font-size: 48px;
+    margin-left: 100px;
+}
+.coleccion a{
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.coleccion span{
+    color: #37FEEB;
+}
+.coleccion-conteiner{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+.coleccion-article{
+    display: flex;
+    flex-direction: column;
+    margin-right: 48px;
+    
+}
+
+.coleccion-article p{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: start;
+}
+.coleccion-heart{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+.coleccion-article span{
+    line-height: 27px;
+    display: block;
+}
+.coleccion-price{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coleccion-price p{
+    font-weight: 900;
+    font-size: 37px;
+    
+}
+.coleccion-done a{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #37FDE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*---------FOOTER---------*//*---------FOOTER---------*//*---------FOOTER---------*/
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-right: 0px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    margin-top: 123px;
+    color: #fff;
+}
+.footer1 a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-align: right;
+    text-decoration: none;
+}
+.footer-icon1{
+    margin-bottom: 0px;
+}
+.footer-icon1 a{
+    margin-right: 10px;
+}
+
+
+/*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+/*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+/*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+
+
+.main-join{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 60px;
+}
+.join{
+    font-family: 'Montserrat', sans-serif;
+}
+.join h2{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: start;
+    margin-left: 100px;
+}
+.join span{
+    color: #37FDE8;
+}
+.join-text span{
+    font-weight: 700;
+}
+.join p{
+    font-weight: 300;
+    text-align: start;
+    margin-left: 100px;
+}
+.join-conteiner{
+    display: grid;
+    grid-template-columns: 425px 211px 425px 524px;
+    grid-template-rows: 316px 222px;
+    column-gap: 12px;
+    row-gap: 12px;
+    grid-template-areas: "article1 article1 article1 article5"
+                        "article2 article3 article4 article5";
+    justify-content: center;
+    margin-top: 20px;
+}
+.article1{
+    grid-area: article1;
+}
+.article2{
+    grid-area: article2;
+}
+.article3{
+    grid-area: article3;
+}
+.article4{
+    grid-area: article4;
+}
+.article5{
+    grid-area: article5;
+}
+
+
+/*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+/*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+/*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+
+
+.main-shop{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 60px;
+}
+.main-shop--text h2{
+    margin-left: 100px;
+    font-weight: 900;
+    font-size: 48px;
+}
+.main-shop--text span{
+    color: #37FDE8;
+}
+.main-shop--text p{
+    margin-left: 100px;
+}
+.main-shop a{
+    color: white;
+    font-weight: 700;
+}
+.main-shop h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.main-shop h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.main-shop p{
+    font-weight: 300;
+}
+.main-shop1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.main-shop--image img{
+    width: 407px;
+}
+.main-shop2{
+    margin-left: 70px;
+    width: 2000px;
+}
+.main-shop3{
+    display: flex;
+    align-items: center;
+}
+.main-shop3 p{
+    margin-left: 15px;
+}
+.main-shop4 p{
+    font-size: 48px;
+    margin-top: 30px;
+}
+.main-shop4 a{
+    color: #37FDE8;
+}
+.main-shop5{
+    margin-top: 0.1px;
+    margin-bottom: 26px;
+}
+.main-shop5 p{
+    font-size: 17px;
+}
+.main-shop5 img{
+    margin-right: 10px;
+}
+.form-select{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 35%;
+    height: 30px;
+    background: #00000000;
+    border-radius: 4px;
+    border: 2px solid white;
+    font-size: 13px;
+}
+.form-select option{
+    background: #222222;
+}
+.main-shop6 a{
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    width: 280px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #37FDE8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-shop7{
+    margin-right: 150px;
+}
+
+/*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+/*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+/*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+
+
+.main-contact{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 60px;
+}
+.main-text--contact{
+    margin-left: 100px;
+}
+.main-text--contact h2{
+    font-weight: 900;
+    font-size: 48px;
+}
+.main-text--contact span{
+    color: #37FDE8;
+}
+.form-contact{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+.form-name{
+    display: flex;
+    flex-direction: row;
+}
+.form-name input{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    height: 36px;
+    background: #00000000;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+.form-nombre1{
+    margin-bottom: 6px;
+}
+.form-surname1{
+    margin-bottom: 6px;
+}
+.form-gap{
+    margin-left: 17px;
+}
+.form-email{
+    margin-top: 30px;
+}
+.email{
+    margin-bottom: 6px;
+}
+.email span{
+    font-weight: 700;
+}
+.form-email input{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 817px;
+    height: 36px;
+    background: #00000000;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.form-message{
+    margin-top: 30px;
+}
+.form-paragraph{
+    margin-bottom: 6px;
+}
+.form-message textarea{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    width: 817px;
+    height: 100px;
+    background: #00000000;
+    border-radius: 7px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+.form-submit{
+    margin-top: 30px;
+}
+.form-submit input{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    width: 817px;
+    height: 50px;
+    background: #37FEEB;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/*RANGO PARA NOTEBOOKS*//*RANGO PARA NOTEBOOKS*//*RANGO PARA NOTEBOOKS*/
+/*RANGO PARA NOTEBOOKS*//*RANGO PARA NOTEBOOKS*//*RANGO PARA NOTEBOOKS*/
+
+@media(max-width:1200px){
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 45px;
+        align-items: center;
+    }
+    .header-nike{
+        display: flex;    
+        justify-content: space-between;
+        padding-left: 17px;
+    }
+    .header-shop{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header-shop a{
+    padding-right: 10px;
+    }
+    header nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+    }
+    header nav ul  li{
+        padding-left: 10px;
+        padding-right: 100px;
+    }
+    header nav ul a{
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .main-index{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .main-conteiner{
+        min-height: calc(100vh - 218px );
+    }
+    .main-snikers img{
+        width: 1000px;
+    }
+    .main-message{
+        color: white;
+        font-weight: 300;
+        text-align: center;
+    }
+    .main-buy{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: 65px;
+    }
+    .main-buy a{
+        color: white;
+        font-weight: 700;
+        width: 150px;
+        height: 55px;
+        border-radius: 15px;
+        background-color: #d9d9d957;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-buy img{
+        width: 25px;
+        height: 25px;
+        margin-left: 9px;
+    }
+    
+    /*----------FOOTER----------*//*----------FOOTER----------*//*----------FOOTER----------*/
+    
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 17px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        padding-top: 123px;
+        color: #fff;
+    }
+    .footer-text a{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 300;
+        text-align: right;
+        text-decoration: none;
+    }
+    .footer-line{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footer-icon a{
+        margin-right: 10px;
+    }
+    
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    
+    .main-coleccion{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main p{
+        text-align: start;
+        margin-left: 30px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .coleccion{
+        display: flex;
+        align-items: center;
+    }
+    .coleccion h2{
+        text-align: start;
+        font-weight: 900;
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .coleccion a{
+        margin-top: 12px;
+        margin-left: 10px;
+        width: 10px;
+    }
+    .coleccion span{
+        color: #37FEEB;
+    }
+    .coleccion-conteiner{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        padding-left: 0px;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 10px;
+        grid-template-areas: "coleccion-conteiner2 coleccion-conteiner3 coleccion-conteiner4"
+                            "coleccion-conteiner5 coleccion-conteiner6 coleccion-conteiner7";
+    }
+    .coleccion-article2{
+        grid-area: coleccion-article2;
+    }
+    .coleccion-article3{
+        grid-area: coleccion-article3;
+    }
+    .coleccion-article4{
+        grid-area: coleccion-article4;
+    }
+    .coleccion-article5{
+        grid-area: coleccion-article5;
+    }
+    .coleccion-article6{
+        grid-area: coleccion-article6;
+    }
+    .coleccion-article7{
+        grid-area: coleccion-article7;
+    }
+    .coleccion-article {
+        display: flex;
+        flex-direction: column;
+    }
+    .coleccion-article a{
+        width: 100px;
+    }
+    .coleccion-article img{
+        width: 90px;
+    }
+    .coleccion-heart img{
+        width: 10px;
+    }
+    .coleccion-article p{
+        font-weight: 700;
+        font-size: 12px;
+        text-align: start;
+    }
+    .coleccion-heart{
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 5px;
+    }
+    .coleccion-article span{
+        line-height: 17px;
+        display: block;
+    }
+    .coleccion-price{
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .coleccion-price p{
+        font-weight: 900;
+        font-size: 17px;
+        
+    }
+    .coleccion-done a{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #37FDE8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    /*---------FOOTER---------*//*---------FOOTER---------*//*---------FOOTER---------*/
+
+    .footer1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-right: 0px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        margin-top: 123px;
+        color: #fff;
+    }
+
+
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+
+
+    .main-join{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .join{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .join h2{
+        font-weight: 900;
+        font-size: 28px;
+        text-align: start;
+        margin-left: 30px;
+    }
+    .join span{
+        color: #37FDE8;
+    }
+    .join-text span{
+        font-weight: 700;
+    }
+    .join p{
+        font-weight: 300;
+        text-align: start;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .join-conteiner{
+        display: grid;
+        grid-template-columns: 425px 211px 425px 524px;
+        grid-template-rows: 316px 222px;
+        column-gap: 12px;
+        row-gap: 12px;
+        grid-template-areas: "article1 article1 article1 article5"
+                            "article2 article3 article4 article5";
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .join-conteiner{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 12px;
+        row-gap: 30px;
+        grid-template-areas: "article1 article1 article1 article5"
+                            "article2 article3 article4 article5";
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .article1 img{
+        width: 776px;
+    }
+    .article2 img{
+        width: 300px;
+    }
+    .article3 img{
+        width: 150px;
+    }
+    .article4 img{
+        width: 300px;
+    }
+    .article5 img{
+        width: 374px;
+    }
+    .article1{
+        width: 700px;
+        height: 203.11px;
+        grid-area: article1;
+    }
+    .article2{
+        width: 300px;
+        height: 156.7px;
+        grid-area: article2;
+    }
+    .article3{
+        width: 151px;
+        height: 158.86px;
+        grid-area: article3;
+    }
+    .article4{
+        width: 300px;
+        height: 156.7px;
+        grid-area: article4;
+    }
+    .article5{
+        grid-area: article5;
+    }
+
+
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+
+
+    .main-shop{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main-shop--text h2{
+        margin-left: 30px;
+        font-weight: 900;
+        font-size: 28px;
+    }
+    .main-shop--text span{
+        color: #37FDE8;
+    }
+    .main-shop--text p{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .main-shop a{
+        color: white;
+        font-weight: 700;
+    }
+    .main-shop h3{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .main-shop h4{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .main-shop p{
+        font-weight: 300;
+    }
+    .main-shop1{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .main-shop--image img{
+        width: 407px;
+    }
+    .main-shop2{
+        margin-left: 70px;
+        width: 2000px;
+    }
+    .main-shop3{
+        display: flex;
+        align-items: center;
+    }
+    .main-shop3 p{
+        margin-left: 15px;
+    }
+    .main-shop4 p{
+        font-size: 48px;
+        margin-top: 30px;
+    }
+    .main-shop4 a{
+        color: #37FDE8;
+    }
+    .main-shop5{
+        margin-top: 0.1px;
+        margin-bottom: 26px;
+    }
+    .main-shop5 p{
+        font-size: 17px;
+    }
+    .main-shop5 img{
+        margin-right: 10px;
+    }
+    .form-select{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 170px;
+        height: 30px;
+        background: #00000000;
+        border-radius: 4px;
+        border: 2px solid white;
+        font-size: 13px;
+    }
+    .form-select option{
+        background: #222222;
+    }
+    .main-shop6 a{
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        width: 280px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #37FDE8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-shop7{
+        margin-right: 40px;
+        margin-left: 70px;
+    }
+    
+
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+
+
+    .main-contact{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main-text--contact{
+        margin-left: 30px;
+    }
+    .main-text--contact h2{
+        font-weight: 900;
+        font-size: 28px;
+    }
+    .main-text--contact p{
+        font-size: 14px;
+    }
+    .main-text--contact span{
+        color: #37FDE8;
+    }
+    .form-contact{
+        display: flex;
+        margin-left: 0px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .form-name{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-name input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 36px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 14px;
+    }
+    .form-nombre1{
+        margin-bottom: 6px;
+    }
+    .form-surname1{
+        margin-bottom: 6px;
+    }
+    .form-gap{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .form-email{
+        margin-top: 30px;
+    }
+    .email{
+        margin-bottom: 6px;
+    }
+    .email span{
+        font-weight: 700;
+    }
+    .form-email input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 36px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .form-message{
+        margin-top: 30px;
+    }
+    .form-paragraph{
+        margin-bottom: 6px;
+    }
+    .form-message textarea{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 100px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .form-submit{
+        margin-top: 30px;
+    }
+    .form-submit input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(0, 0, 0);
+        width: 400px;
+        height: 45px;
+        background: #37FEEB;
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .contact-office{
+        margin-left: 50px;
+    }
+    .contact-office img{
+        width: 500px;
+    }
+    .contact-map{
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .contact-map img{
+        width: 20px;
+    }
+    .contact-map p{
+        margin-left: 10px;
+        font-weight: 700;
+    }
+}
+
+/*RANGO PARA TABLETS*//*RANGO PARA TABLETS*//*RANGO PARA TABLETS*/
+/*RANGO PARA TABLETS*//*RANGO PARA TABLETS*//*RANGO PARA TABLETS*/
+
+@media(max-width:768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 45px;
+        align-items: center;
+    }
+    .header-nike{
+        display: flex;    
+        justify-content: space-between;
+        padding-left: 17px;
+        padding-bottom: 25px;
+    }
+    .header-shop{
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header-shop a{
+        padding-right: 10px;
+    }
+    header nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+        flex-direction: row;
+    }
+    header nav ul  li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header nav ul a{
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .main-conteiner{
+        height: calc(100vh - 218px - );
+    }
+    .main-index{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .main-snikers img{
+        width: 100%;
+    }
+    .main-message{
+        color: white;
+        font-weight: 300;
+        text-align: center;
+    }
+    .main-buy{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: 50px;
+    }
+    .main-buy a{
+        color: white;
+        font-weight: 700;
+        width: 150px;
+        height: 55px;
+        border-radius: 15px;
+        background-color: #d9d9d957;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-buy img{
+        width: 25px;
+        height: 25px;
+        margin-left: 9px;
+    }
+    
+    /*----------FOOTER----------*//*----------FOOTER----------*//*----------FOOTER----------*/
+    
+    .footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-right: 0px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        padding-top: 123px;
+        color: #fff;
+    }
+    .footer-text a{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 300;
+        text-align: right;
+        text-decoration: none;
+    }
+    .footer-line{
+        display: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footer-icon a{
+        margin-right: 10px;
+    }
+
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    
+    .main-coleccion{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main p{
+        text-align: start;
+        margin-left: 30px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .coleccion{
+        display: flex;
+        align-items: center;
+    }
+    .coleccion h2{
+        text-align: start;
+        font-weight: 900;
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .coleccion a{
+        margin-top: 12px;
+        margin-left: 10px;
+        width: 10px;
+    }
+    .coleccion span{
+        color: #37FEEB;
+    }
+    .coleccion-conteiner{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        padding-left: 45px;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 12px;
+        grid-template-areas: "coleccion-conteiner2 coleccion-conteiner3 coleccion-conteiner4"
+                            "coleccion-conteiner5 coleccion-conteiner6 coleccion-conteiner7";
+    }
+    .coleccion-article2{
+        grid-area: coleccion-article2;
+    }
+    .coleccion-article3{
+        grid-area: coleccion-article3;
+    }
+    .coleccion-article4{
+        grid-area: coleccion-article4;
+    }
+    .coleccion-article5{
+        grid-area: coleccion-article5;
+    }
+    .coleccion-article6{
+        grid-area: coleccion-article6;
+    }
+    .coleccion-article7{
+        grid-area: coleccion-article7;
+    }
+    .coleccion-article {
+        display: flex;
+        flex-direction: column;
+    }
+    .coleccion-article a{
+        width: 100px;
+    }
+    .coleccion-article img{
+        width: 100px;
+    }
+    .coleccion-heart img{
+        width: 10px;
+    }
+    .coleccion-article p{
+        font-weight: 700;
+        font-size: 12px;
+        text-align: start;
+    }
+    .coleccion-heart{
+        position: absolute;
+        margin-left: 79px;
+        margin-top: 5px;
+    }
+    .coleccion-article span{
+        line-height: 17px;
+        display: block;
+    }
+    .coleccion-price{
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .coleccion-price p{
+        font-weight: 900;
+        font-size: 17px;
+        
+    }
+    .coleccion-done a{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #37FDE8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /*---------FOOTER---------*//*---------FOOTER---------*//*---------FOOTER---------*/
+
+    .footer1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-right: 0px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        margin-top: 123px;
+        color: #fff;
+    }
+
+
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+
+
+    .main-join{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .join{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .join h2{
+        font-weight: 900;
+        font-size: 28px;
+        text-align: start;
+        margin-left: 30px;
+    }
+    .join span{
+        color: #37FDE8;
+    }
+    .join-text span{
+        font-weight: 700;
+    }
+    .join p{
+        font-weight: 300;
+        text-align: start;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .join-conteiner{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-areas:"article5 article5 article5";
+        margin-top: 70px;
+        height: 319.66px;
+    }
+    .join-conteiner img{
+        width: 100%;
+    }
+    .article3 img{
+        width: 49px;
+    }
+    .article1{
+        display: none;
+
+    }
+    .article2{
+        display: none;
+
+    }
+    .article3{
+        display: none;
+
+    }
+    .article4{
+        display: none;
+    }
+    .article5{
+        grid-area: article5;
+    }
+
+
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+
+
+    .main-shop{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main-shop--text h2{
+        margin-left: 30px;
+        font-weight: 900;
+        font-size: 28px;
+    }
+    .main-shop--text span{
+        color: #37FDE8;
+    }
+    .main-shop--text p{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .main-shop a{
+        color: white;
+        font-weight: 700;
+    }
+    .main-shop h3{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .main-shop h4{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .main-shop p{
+        font-weight: 300;
+    }
+    .main-shop1{
+        display: grid;
+        margin-top: 40px;
+        margin-left: 120px;
+        width: 207px;
+        height: 225,14px;
+        grid-template-columns: 220px 280px;
+        grid-template-rows: auto auto;
+    }
+    .main-shop--image img{
+        width: 220px;
+    }
+    .main-shop2{
+        margin-left: 20px;
+        width: 280px;
+    }
+    .main-shop3{
+        display: flex;
+        align-items: center;
+    }
+    .main-shop3 p{
+        margin-left: 15px;
+    }
+    .main-shop4 p{
+        font-size: 48px;
+        margin-top: 30px;
+    }
+    .main-shop4 a{
+        color: #37FDE8;
+    }
+    .main-shop5{
+        margin-top: 0.1px;
+        margin-bottom: 26px;
+    }
+    .main-shop5 p{
+        font-size: 17px;
+    }
+    .main-shop5 img{
+        margin-right: 10px;
+    }
+    .form-select{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 30px;
+        background: #00000000;
+        border-radius: 4px;
+        border: 2px solid white;
+        font-size: 13px;
+    }
+    .form-select option{
+        background: #222222;
+    }
+    .main-shop6 a{
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        width: 280px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #37FDE8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-shop7{
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .main-shop7 p{
+        font-size: 14px;
+    }
+    .main-shop7 span{
+        display: none;
+    }
+    
+
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+
+
+    .main-contact{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main-text--contact{
+        margin-left: 30px;
+    }
+    .main-text--contact h2{
+        font-weight: 900;
+        font-size: 28px;
+    }
+    .main-text--contact p{
+        font-size: 14px;
+    }
+    .main-text--contact span{
+        color: #37FDE8;
+    }
+    .form-contact{
+        display: flex;
+        margin-left: 0px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .form-name{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-name input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 36px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 14px;
+    }
+    .form-nombre1{
+        margin-bottom: 6px;
+    }
+    .form-surname1{
+        margin-bottom: 6px;
+    }
+    .form-gap{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .form-email{
+        margin-top: 30px;
+    }
+    .email{
+        margin-bottom: 6px;
+    }
+    .email span{
+        font-weight: 700;
+    }
+    .form-email input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 36px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .form-message{
+        margin-top: 30px;
+    }
+    .form-paragraph{
+        margin-bottom: 6px;
+    }
+    .form-message textarea{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 100px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .form-submit{
+        margin-top: 30px;
+    }
+    .form-submit input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(0, 0, 0);
+        width: 400px;
+        height: 45px;
+        background: #37FEEB;
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .contact-office{
+        display: none;
+        margin-left: 0px;
+    }
+    .contact-map{
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .contact-map p{
+        margin-left: 0px;
+        font-weight: 700;
+    }
+}
+
+/*RANGO PARA CELULARES*//*RANGO PARA CELULARES*//*RANGO PARA CELULARES*/
+/*RANGO PARA CELULARES*//*RANGO PARA CELULARES*//*RANGO PARA CELULARES*/
+
+@media(max-width:576px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 45px;
+        align-items: center;
+    }
+    .header-nike{
+        display: flex;    
+        justify-content: space-between;
+        padding-left: 17px;
+        padding-bottom: 25px;
+    }
+    .header-shop{
+        display: none;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .header-shop a{
+        padding-right: 10px;
+    }
+    header nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center; 
+        flex-direction: row;
+    }
+    header nav ul  li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    header nav ul a{
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .main-conteiner{
+        height: calc(100vh - 218px - );
+    }
+    .main-index{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    .main-snikers img{
+        width: 100%;
+    }
+    .main-message{
+        color: white;
+        font-weight: 300;
+        text-align: center;
+    }
+    .main-buy{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: 100px;
+    }
+    .main-buy a{
+        color: white;
+        font-weight: 700;
+        width: 150px;
+        height: 55px;
+        border-radius: 15px;
+        background-color: #d9d9d957;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-buy img{
+        width: 25px;
+        height: 25px;
+        margin-left: 9px;
+    }
+    
+    /*----------FOOTER----------*//*----------FOOTER----------*//*----------FOOTER----------*/
+    
+    .footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-right: 0px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        padding-top: 123px;
+        color: #fff;
+    }
+    .footer-text a{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 300;
+        text-align: right;
+        text-decoration: none;
+    }
+    .footer-line{
+        display: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footer-icon a{
+        margin-right: 10px;
+    }
+
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    /*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*//*---------Pagina COLECCIÓN---------*/
+    
+    .main-coleccion{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main p{
+        text-align: start;
+        margin-left: 30px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .coleccion{
+        display: flex;
+        align-items: center;
+    }
+    .coleccion h2{
+        text-align: start;
+        font-weight: 900;
+        font-size: 28px;
+        margin-left: 30px;
+    }
+    .coleccion a{
+        margin-top: 12px;
+        margin-left: 10px;
+        width: 10px;
+    }
+    .coleccion span{
+        color: #37FEEB;
+    }
+    .coleccion-conteiner{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        padding-left: 45px;
+        justify-content: center;
+        row-gap: 20px;
+        grid-template-areas: "coleccion-conteiner2 coleccion-conteiner3 coleccion-conteiner4"
+                            "coleccion-conteiner5 coleccion-conteiner6 coleccion-conteiner7";
+    }
+    .coleccion-article2{
+        grid-area: coleccion-article2;
+    }
+    .coleccion-article3{
+        grid-area: coleccion-article3;
+    }
+    .coleccion-article4{
+        grid-area: coleccion-article4;
+    }
+    .coleccion-article5{
+        grid-area: coleccion-article5;
+    }
+    .coleccion-article6{
+        grid-area: coleccion-article6;
+    }
+    .coleccion-article7{
+        grid-area: coleccion-article7;
+    }
+    .coleccion-article {
+        display: flex;
+        flex-direction: column;
+    }
+    .coleccion-article a{
+        width: 100px;
+    }
+    .coleccion-article img{
+        width: 100px;
+    }
+    .coleccion-heart img{
+        width: 10px;
+    }
+    .coleccion-article p{
+        font-weight: 700;
+        font-size: 12px;
+        text-align: start;
+    }
+    .coleccion-heart{
+        position: absolute;
+        margin-left: 79px;
+        margin-top: 5px;
+    }
+    .coleccion-article span{
+        line-height: 17px;
+        display: block;
+    }
+    .coleccion-price{
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .coleccion-price p{
+        font-weight: 900;
+        font-size: 17px;
+        
+    }
+    .coleccion-done a{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        font-size: 10px;
+        width: 60px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #37FDE8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /*---------FOOTER---------*//*---------FOOTER---------*//*---------FOOTER---------*/
+
+    .footer1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-right: 0px;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100vw;
+        margin-top: 123px;
+        color: #fff;
+    }
+
+
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+    /*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*//*---------Pagina UNITE A NOSOTROS---------*/
+
+
+    .main-join{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .join{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .join h2{
+        font-weight: 900;
+        font-size: 28px;
+        text-align: start;
+        margin-left: 30px;
+    }
+    .join span{
+        color: #37FDE8;
+    }
+    .join-text span{
+        font-weight: 700;
+    }
+    .join p{
+        font-weight: 300;
+        text-align: start;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .join-conteiner{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-areas:"article5 article5 article5";
+        margin-top: 70px;
+        height: 319.66px;
+    }
+    .join-conteiner img{
+        width: 100%;
+    }
+    .article3 img{
+        width: 49px;
+    }
+    .article1{
+        display: none;
+
+    }
+    .article2{
+        display: none;
+
+    }
+    .article3{
+        display: none;
+
+    }
+    .article4{
+        display: none;
+    }
+    .article5{
+        grid-area: article5;
+    }
+
+
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+    /*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*//*---------Pagina TIENDA---------*/
+
+
+    .main-shop{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main-shop--text h2{
+        margin-left: 30px;
+        font-weight: 900;
+        font-size: 28px;
+    }
+    .main-shop--text span{
+        color: #37FDE8;
+    }
+    .main-shop--text p{
+        margin-left: 30px;
+        font-size: 14px;
+    }
+    .main-shop a{
+        color: white;
+        font-weight: 700;
+    }
+    .main-shop h3{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .main-shop h4{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .main-shop p{
+        font-weight: 300;
+    }
+    .main-shop1{
+        display: grid;
+        margin-top: 40px;
+        margin-left: 30px;
+        width: 207px;
+        height: 225,14px;
+        grid-template-columns: 220px 280px;
+        grid-template-rows: auto auto;
+    }
+    .main-shop--image img{
+        width: 220px;
+    }
+    .main-shop2{
+        margin-left: 20px;
+        width: 280px;
+    }
+    .main-shop3{
+        display: flex;
+        align-items: center;
+    }
+    .main-shop3 p{
+        margin-left: 15px;
+    }
+    .main-shop4 p{
+        font-size: 48px;
+        margin-top: 30px;
+    }
+    .main-shop4 a{
+        color: #37FDE8;
+    }
+    .main-shop5{
+        margin-top: 0.1px;
+        margin-bottom: 26px;
+    }
+    .main-shop5 p{
+        font-size: 17px;
+    }
+    .main-shop5 img{
+        margin-right: 10px;
+    }
+    .form-select{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 30px;
+        background: #00000000;
+        border-radius: 4px;
+        border: 2px solid white;
+        font-size: 13px;
+    }
+    .form-select option{
+        background: #222222;
+    }
+    .main-shop6 a{
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        width: 280px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #37FDE8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-shop7{
+        margin-top: 10px;
+    }
+    .main-shop7 p{
+        font-size: 14px;
+    }
+    .main-shop7 span{
+        display: none;
+    }
+    
+
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+    /*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*//*---------Pagina CONTACTO---------*/
+
+
+    .main-contact{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 60px;
+    }
+    .main-text--contact{
+        margin-left: 30px;
+    }
+    .main-text--contact h2{
+        font-weight: 900;
+        font-size: 28px;
+    }
+    .main-text--contact p{
+        font-size: 14px;
+    }
+    .main-text--contact span{
+        color: #37FDE8;
+    }
+    .form-contact{
+        display: flex;
+        margin-left: 0px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .form-name{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-name input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 36px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 14px;
+    }
+    .form-nombre1{
+        margin-bottom: 6px;
+    }
+    .form-surname1{
+        margin-bottom: 6px;
+    }
+    .form-gap{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .form-email{
+        margin-top: 30px;
+    }
+    .email{
+        margin-bottom: 6px;
+    }
+    .email span{
+        font-weight: 700;
+    }
+    .form-email input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 36px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .form-message{
+        margin-top: 30px;
+    }
+    .form-paragraph{
+        margin-bottom: 6px;
+    }
+    .form-message textarea{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(255, 255, 255);
+        width: 400px;
+        height: 100px;
+        background: #00000000;
+        border-radius: 7px;
+        border: 1px solid white;
+        font-size: 15px;
+    }
+    .form-submit{
+        margin-top: 30px;
+    }
+    .form-submit input{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(0, 0, 0);
+        width: 400px;
+        height: 45px;
+        background: #37FEEB;
+        border-radius: 7px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .contact-office{
+        display: none;
+        margin-left: 0px;
+    }
+    .contact-map{
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .contact-map p{
+        margin-left: 0px;
+        font-weight: 700;
+    }
+}
+
+
+
